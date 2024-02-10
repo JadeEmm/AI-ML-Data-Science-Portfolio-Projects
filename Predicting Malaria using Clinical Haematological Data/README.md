@@ -14,18 +14,22 @@ This project explores the opportunity to use machine learning on clinical data, 
 - Class label distribution: nMI=978, SM=525, UM=703
 - Machine Learning Approaches
 
-This project tests a random forest model and a deep learning neural network model to perform multi-classification.
+This project tests a random forest model and a deep learning neural network model (with two hidden layers) to perform multi-classification.
 
 # Project Workflow:
 
 1. Data Gathering
 2. Exploratory Data Analysis and Feature Engineering
-3. Data Pre-processing & Split Data into Train and Test Sets
-4. ML Model Development and Training (Random Forest and Deep Learning Neural Network)
-5. Test Train Model
-6. Evaluate Model
+3. Data Pre-processing & Split Data into Train and Test (or Train, Test & Validation) Sets
+4. ML Model Development (Random Forest and Deep Learning Neural Network)
+5. Train, Validate, Hypertune & Test Model 
+6. Evaluate Model Performance
 7. Visualise & Interpret Results
 
 This Project is in two parts:
 - The first part (Part 1) notebook builds and tests a random forest model
 - The second notebook (Part 2) is an extension of the first, as it continues to build and test an additional neural network, using a more complex deep learning approach.
+
+# Project Outcome
+- The best random forest model achieved an accuracy of 82.7%
+- The best neural network model achieved an accuracy of 84.0%
