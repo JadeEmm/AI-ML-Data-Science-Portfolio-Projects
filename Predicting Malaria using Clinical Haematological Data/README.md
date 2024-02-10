@@ -1,4 +1,5 @@
 # Project Context
+
 Malaria is a major global health issue with high prevalence. There are several challenges of malaria diagnosis, and accurately distinguishing ti from other diseases, including:
 
 - Diagnosis by microscopy is subjective
@@ -8,6 +9,10 @@ Malaria is a major global health issue with high prevalence. There are several c
 This project explores the opportunity to use machine learning on clinical data, as a powerful application of AI in healthcare for precision medicine to improve the accuracy of malaria diagnosis by classification of: uncomplicated malaria (UM), non-malarial-infection (nMI) and severe malaria (SM).
 
 # The Dataset
+
+The clinical dataset used was obtained from this study:
+Morang’a, C.M., Amenga–Etego, L., Bah, S.Y. et al. Machine learning approaches classify clinical malaria outcomes based on haematological parameters. BMC Med 18, 375 (2020). https://doi.org/10.1186/s12916-020-01823-3
+
 - Table S2 Hematological Raw Data (renamed for this project as malaria_clinical_data.csv)
 - Clinical and raw haematological data from 2207 study participants
 - There are 34 features for each sample including the (malaria) class label
