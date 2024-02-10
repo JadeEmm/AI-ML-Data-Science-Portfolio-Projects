@@ -7,7 +7,7 @@ Malaria is a major global health issue with high prevalence. There are several c
 # Project Purpose
 This project explores the opportunity to use machine learning on clinical data, as a powerful application of AI in healthcare for precision medicine to improve the accuracy of malaria diagnosis by classification of: uncomplicated malaria (UM), non-malarial-infection (nMI) and severe malaria (SM).
 
-# The dataset
+# The Dataset
 - Table S2 Hematological Raw Data (renamed for this project as malaria_clinical_data.csv)
 - Clinical and raw haematological data from 2207 study participants
 - There are 34 features for each sample including the (malaria) class label
