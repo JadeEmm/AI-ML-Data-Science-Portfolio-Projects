@@ -25,3 +25,7 @@ This project tests a random forest model and a deep learning neural network mode
 5. Test Train Model
 6. Evaluate Model
 7. Visualise & Interpret Results
+
+This Project is in two parts:
+- The first part (Part 1) notebook builds and tests a random forest model
+- The second notebook (Part 2) is an extension of the first, as it continues to build and test an additional neural network, using a more complex deep learning approach.
